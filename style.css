@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 120);
+}
+.container{
+    /* height: 50vh; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.text{
+    color: white;
+    width: 50%;
+    height: 100%;
+}
+.text h1{
+    /* padding-top: 30px; */
+    height: 35vh;
+    font-size: 40px;
+    line-height: 70px;
+    padding-left: 15px;
+    border-left: 5px solid white;
+
+}
+.container-ui{
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 40vh;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container-ui .buttonInput{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    gap: 10px;
+}
+.buttonInput input, .buttonInput button{
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+}
+.buttonInput button{
+    background-color: rgb(20, 20, 120);
+    color: white;
+    font-size: larger;
+    border: none;
+    outline: none;
+}
+.buttonInput input{
+    padding: 5px;
+}
